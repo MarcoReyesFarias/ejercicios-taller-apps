@@ -1,0 +1,104 @@
+body {
+    margin: 0 auto;
+    width: 1440px;
+    height: 1024px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 33px;
+    right: 5px;
+    display: grid;
+    grid-template-columns: 0 2;
+    text-align: center;
+}
+
+/*  */
+
+.principalbox {
+    width: 1440px;
+    height: 1024px;
+    box-sizing: border-box;
+}
+
+/* texto zafari */
+
+.FirstTit {
+    padding-top: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    color: rgb(255, 255, 255);
+}
+
+/* barra del zafari */
+
+header {
+    width: 1447px;
+    height: 115px;
+    background: #333333;
+    box-sizing: border-box;
+}
+
+/* barra izquierda */
+
+.sec_cont {
+    width: 433px;
+    height: 909px;
+    background: rgb(195, 196, 255);
+    box-sizing: border-box;
+    float: left;
+    text-align: left;
+}
+
+/* tamano borde */
+
+.layout {
+    text-align: center;
+    width: 1013px;
+    height: 909px;
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+    margin-left: 433px;
+}
+
+/* tamano ventana */
+
+.IF {
+    width: 1013px;
+    height: 700px;
+}
+
+i {
+    margin-right: 43px;
+}
+
+H1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 47px;
+    color: #000000;
+}
+
+.tit {
+    width: 433px;
+    height: 108px;
+    background: rgb(195, 223, 255);
+    border-bottom: 2px solid rgb(119, 194, 255);
+    padding-top: 27px;
+    box-sizing: border-box;
+}
+
+.tit:hover {
+    background: rgb(119, 189, 255);
+}
+
+.texto {
+    margin-left: 41px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+

@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  main {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    
+  }
+
+  h1{
+    font-family: Monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 52px;
+    
+    
+  }
+  
+  .loginbox {
+    height: 350px;
+    padding: 2px 60px;
+    background: #33ffda;
+    border: 2px solid #33ffda;
+    box-sizing: border-box;
+    border-radius: 30px;
+  }
+  
+  .loginbox h1 {
+    text-align: center;
+    font-family: Monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 52px;
+    color: #0a0001;
+  }
+  
+  .frombox {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 15px;
+    
+  }
+  
+  .frombox small {
+    text-align: center;
+  }
+  
+  .frombox input {
+    height: 39px;
+    padding: 5px;
+    background: #ffffff;
+    border: 2px solid #C3F1FF;
+    box-sizing: border-box;
+    border-radius: 38px;
+    
+  }
+  
+  .frombox button {
+    height: 34px;
+    background: rgb(85, 199, 165);
+    color: rgb(250, 252, 253);
+    border-radius: 38px;
+    border: 2px solid rgb(49, 129, 105), 175, 175);
+    box-sizing: border-box;
+  }
+  
+  .frombox button:hover {
+    cursor: pointer;
+    background: rgb(44, 100, 83);
+  }
+  
+  .frombox small {
+    color: gray;
+  }
+  
+  .frombox input::placeholder {
+    color: rgb(0, 12, 9);
+    opacity: 1;
+  }

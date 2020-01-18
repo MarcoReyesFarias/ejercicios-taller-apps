@@ -1,0 +1,154 @@
+* 
+{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    width: 985px;
+    height: 1024px;
+
+    display: grid;
+    grid-template-columns: 0 2;
+    box-sizing: border-box;
+
+    background: rgb(255, 255, 255);
+}
+
+main {
+    position: absolute;
+    width: 985px;
+    height: 1024px;
+}
+
+.feltbox {
+    width: 301px;
+    height: 1014px;
+
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+    float: left;
+
+}
+
+.lista_contacto {
+    width: 302px;
+    height: 132px;
+
+    background: rgb(219, 219, 219);
+    box-sizing: border-box;
+    font-family: Monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 41px;
+    color: #000000;
+    border-right: 1px solid rgb(140, 140, 140);
+    text-align: center;
+    line-height: 40px;
+    padding-top: 20px;
+}
+
+.feltbox2 {
+    width: 301px;
+    height: 449px;
+
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+    display: grid;
+}
+
+.contactos {
+    display: grid;
+    grid-template-columns: 25% 70%;
+
+    box-sizing: border-box;
+    vertical-align: middle;
+    align-content: center;
+
+    width: 301px;
+    height: 86px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    background: rgb(255, 255, 255);
+    padding-left: 24px;
+}
+
+img {
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+
+}
+
+p {
+    font-family: Monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin-top: 25px;
+}
+
+.rightbox {
+    width: 685px;
+    height: 1014px;
+    box-sizing: border-box;
+    margin-left: 301px;
+}
+
+.contactos:hover {
+    background: rgb(242, 242, 242);
+}
+
+.nombre_superior {
+    width: 685px;
+    height: 132px;
+    box-sizing: border-box;
+    font-family: Monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    background: rgb(219, 219, 219);
+    text-align: center;
+    padding-top: 40px;
+}
+
+.chat_box {
+    width: 685px;
+    height: 449px;
+    box-sizing: border-box;
+    background: rgb(242, 242, 242);
+}
+
+.chat {
+    width: 685px;
+    height: 390px;
+    box-sizing: border-box;
+}
+
+.chat_esc {
+    width: 685px;
+    height: 48px;
+    box-sizing: border-box;
+    background: rgb(242, 242, 242);
+    text-align: center;
+}
+
+input {
+    width: 650px;
+    height: 48px;
+    font-family: Monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    border: 1px solid rgb(219, 219, 219);
+    text-align: left;
+    padding-left: 20px;
+    color: rgb(143, 143, 143);
+}
+
